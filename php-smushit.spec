@@ -4,18 +4,18 @@
 Summary:	A PHP client for the Yahoo! Smush.it web service
 Name:		php-%{pkgname}
 Version:	1.1
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/davgothic/SmushIt/tarball/master#/%{name}-%{version}.tgz
 # Source0-md5:	cc287b37ecd39b0bdc5b54a648061199
 URL:		https://github.com/davgothic/SmushIt
 BuildRequires:	rpmbuild(macros) >= 1.553
+Requires:	php(curl)
+Requires:	php(json)
+Requires:	php(pcre)
+Requires:	php(spl)
 Requires:	php-common >= 4:%{php_min_version}
-Requires:	php-curl
-Requires:	php-json
-Requires:	php-pcre
-Requires:	php-spl
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

@@ -1,6 +1,5 @@
 %define		pkgname	smushit
 %define		php_min_version 5.2.0
-%include	/usr/lib/rpm/macros.php
 Summary:	A PHP client for the Yahoo! Smush.it web service
 Name:		php-%{pkgname}
 Version:	1.1

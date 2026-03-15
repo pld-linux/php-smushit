@@ -3,7 +3,7 @@
 Summary:	A PHP client for the Yahoo! Smush.it web service
 Name:		php-%{pkgname}
 Version:	1.1
-Release:	3
+Release:	4
 License:	MIT
 Group:		Development/Languages/PHP
 Source0:	https://github.com/davgothic/SmushIt/tarball/master#/%{name}-%{version}.tgz
